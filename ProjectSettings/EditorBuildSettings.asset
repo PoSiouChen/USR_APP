@@ -4,5 +4,14 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/TianXian.unity
+    guid: c86986f1fbf240142b1b93aa061c39ac
+  - enabled: 1
+    path: Assets/Scenes/Menu.unity
+    guid: 033d3076c2ee75d4da24a7ffcba92e31
+  - enabled: 1
+    path: Assets/Scenes/GPSTest.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
   m_configObjects: {}
