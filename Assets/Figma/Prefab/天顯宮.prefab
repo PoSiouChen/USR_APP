@@ -417,8 +417,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 400, y: -617.18}
-  m_SizeDelta: {x: 799.99994, y: 670.36}
+  m_AnchoredPosition: {x: 400, y: -665.065}
+  m_SizeDelta: {x: 799.99994, y: 766.13}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &5668860331301953507
 CanvasRenderer:
@@ -448,7 +448,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\u77D7\u7ACB\u53F0\u7063\u982D\u9802\u795E\u5C0A\u5E87\u4F51\u56DB\u65B9\r\n\u5929\u9053\u3001\u795E\u9053\u8207\u4EBA\u9053\u4E43\u662F\u4EBA\u985E\u793E\u6703\u4E0D\u53EF\u6216\u7F3A\u7684\u4E09\u689D\u5149\u660E\u5927\u9053\uFF0C\u4E09\u9053\u4E2D\u5982\u6709\u4E00\u9053\u672A\u5F70\uFF0C\u5FC5\u5C07\u5E36\u4F86\u4EBA\u985E\u707D\u96E3\uFF0C\u5929\u707D\u4EBA\u798D\u96E3\u4EE5\u907F\u514D\u3002\u53CD\u4E4B\uFF0C\u5929\u9053\u66A2\u884C\uFF0C\u795E\u9053\u660E\u662D\uFF0C\u800C\u4EBA\u9053\u5C79\u7ACB\u5247\u5FC5\u662F\u98A8\u8ABF\u96E8\u9806\u3001\u570B\u6CF0\u6C11\u5B89\u7684\u5927\u540C\u76DB\u4E16\u3002\u7230\u4EE5\u795E\u9053\u8A2D\u6559\u7531\u4F86\u5DF2\u4E45\uFF0C\u70BA\u5B8F\u63DA\u795E\u9053\uFF0C\u53E4\u4ECA\u4E2D\u5916\u7121\u4E0D\u4EE5\u8208\u5EFA\u5EDF\u5B87\u6559\u5802\u70BA\u9996\u8981\u8AB2\u984C\u3002\u85C9\u7531\u4EBA\u795E\u4EA4\u6703\uFF0C\u795E\u6069\u5E87\u4F51\uFF0C\u5EDF\u5B87\u6559\u5802\u6F38\u6F38\u5730\u6210\u70BA\u4EBA\u985E\u793E\u6703\u7684\u7CBE\u795E\u6587\u5316\u4E4B\u5821\u58D8\u8207\u5BC4\u8A17\u3002\r\n\u5929\u986F\u5BAE\u4F4D\u65BC\u57FA\u9686\u548C\u5E73\u5CF6(\u539F\u540D\u793E\u5BEE\u5E84)\u9F8D\u4ED4\u9802\u4E4B\u6700\u9802\u7AEF\u3002\u7DE3\u81EA\u6E05\u671D\u4E2D\u8449\uFF0C\u7576\u6642\u7531\u5CF6\u4E0A\u8B1D\u59D3\u7956\u5148\u2014\r\n\u8B1D\u5B50\u9F8D\u4E09\u5144\u5F1F\u81EA\u6D59\u6C5F\u5BE7\u6D77\u5949\u8FCE\u4F0D\u986F\u9748\u5B98\u5927\u5E1D\u91D1\u8EAB\u65BC\u6F8E\u4F73\u5DBC\uFF0C\u672A\u4E45\u5373\u606D\u8FCE\u65BC\u548C\u5E73\u5CF6\u4E0A\u73FE\u5740\uFF0C\u8DDD\u4ECA\u7D04\u8FD1\u5169\u767E\u8F09\u3002"
+  m_text: "\u77D7\u7ACB\u53F0\u7063\u982D\u9802\u795E\u5C0A\u5E87\u4F51\u56DB\u65B9\r\n\n\u5929\u9053\u3001\u795E\u9053\u8207\u4EBA\u9053\u4E43\u662F\u4EBA\u985E\u793E\u6703\u4E0D\u53EF\u6216\u7F3A\u7684\u4E09\u689D\u5149\u660E\u5927\u9053\uFF0C\u4E09\u9053\u4E2D\u5982\u6709\u4E00\u9053\u672A\u5F70\uFF0C\u5FC5\u5C07\u5E36\u4F86\u4EBA\u985E\u707D\u96E3\uFF0C\u5929\u707D\u4EBA\u798D\u96E3\u4EE5\u907F\u514D\u3002\u53CD\u4E4B\uFF0C\u5929\u9053\u66A2\u884C\uFF0C\u795E\u9053\u660E\u662D\uFF0C\u800C\u4EBA\u9053\u5C79\u7ACB\u5247\u5FC5\u662F\u98A8\u8ABF\u96E8\u9806\u3001\u570B\u6CF0\u6C11\u5B89\u7684\u5927\u540C\u76DB\u4E16\u3002\u7230\u4EE5\u795E\u9053\u8A2D\u6559\u7531\u4F86\u5DF2\u4E45\uFF0C\u70BA\u5B8F\u63DA\u795E\u9053\uFF0C\u53E4\u4ECA\u4E2D\u5916\u7121\u4E0D\u4EE5\u8208\u5EFA\u5EDF\u5B87\u6559\u5802\u70BA\u9996\u8981\u8AB2\u984C\u3002\u85C9\u7531\u4EBA\u795E\u4EA4\u6703\uFF0C\u795E\u6069\u5E87\u4F51\uFF0C\u5EDF\u5B87\u6559\u5802\u6F38\u6F38\u5730\u6210\u70BA\u4EBA\u985E\u793E\u6703\u7684\u7CBE\u795E\u6587\u5316\u4E4B\u5821\u58D8\u8207\u5BC4\u8A17\u3002\r\n\n\u5929\u986F\u5BAE\u4F4D\u65BC\u57FA\u9686\u548C\u5E73\u5CF6(\u539F\u540D\u793E\u5BEE\u5E84)\u9F8D\u4ED4\u9802\u4E4B\u6700\u9802\u7AEF\u3002\u7DE3\u81EA\u6E05\u671D\u4E2D\u8449\uFF0C\u7576\u6642\u7531\u5CF6\u4E0A\u8B1D\u59D3\u7956\u5148\u2014\r\n\u8B1D\u5B50\u9F8D\u4E09\u5144\u5F1F\u81EA\u6D59\u6C5F\u5BE7\u6D77\u5949\u8FCE\u4F0D\u986F\u9748\u5B98\u5927\u5E1D\u91D1\u8EAB\u65BC\u6F8E\u4F73\u5DBC\uFF0C\u672A\u4E45\u5373\u606D\u8FCE\u65BC\u548C\u5E73\u5CF6\u4E0A\u73FE\u5740\uFF0C\u8DDD\u4ECA\u7D04\u8FD1\u5169\u767E\u8F09\u3002"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 16cd6fdfda8f55241992d39f4931918e, type: 2}
   m_sharedMaterial: {fileID: -7120473418947075265, guid: 16cd6fdfda8f55241992d39f4931918e, type: 2}
@@ -511,7 +511,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 19.105621, y: 0, z: 19.10559, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -793,8 +793,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 400, y: -486.18}
-  m_SizeDelta: {x: 800, y: 670.36}
+  m_AnchoredPosition: {x: 400, y: -581.95}
+  m_SizeDelta: {x: 798.42, y: 861.9}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &5199578857462893938
 CanvasRenderer:
@@ -824,7 +824,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\u77D7\u7ACB\u53F0\u7063\u982D\u9802\u795E\u5C0A\u5E87\u4F51\u56DB\u65B9\r\n\u5929\u9053\u3001\u795E\u9053\u8207\u4EBA\u9053\u4E43\u662F\u4EBA\u985E\u793E\u6703\u4E0D\u53EF\u6216\u7F3A\u7684\u4E09\u689D\u5149\u660E\u5927\u9053\uFF0C\u4E09\u9053\u4E2D\u5982\u6709\u4E00\u9053\u672A\u5F70\uFF0C\u5FC5\u5C07\u5E36\u4F86\u4EBA\u985E\u707D\u96E3\uFF0C\u5929\u707D\u4EBA\u798D\u96E3\u4EE5\u907F\u514D\u3002\u53CD\u4E4B\uFF0C\u5929\u9053\u66A2\u884C\uFF0C\u795E\u9053\u660E\u662D\uFF0C\u800C\u4EBA\u9053\u5C79\u7ACB\u5247\u5FC5\u662F\u98A8\u8ABF\u96E8\u9806\u3001\u570B\u6CF0\u6C11\u5B89\u7684\u5927\u540C\u76DB\u4E16\u3002\u7230\u4EE5\u795E\u9053\u8A2D\u6559\u7531\u4F86\u5DF2\u4E45\uFF0C\u70BA\u5B8F\u63DA\u795E\u9053\uFF0C\u53E4\u4ECA\u4E2D\u5916\u7121\u4E0D\u4EE5\u8208\u5EFA\u5EDF\u5B87\u6559\u5802\u70BA\u9996\u8981\u8AB2\u984C\u3002\u85C9\u7531\u4EBA\u795E\u4EA4\u6703\uFF0C\u795E\u6069\u5E87\u4F51\uFF0C\u5EDF\u5B87\u6559\u5802\u6F38\u6F38\u5730\u6210\u70BA\u4EBA\u985E\u793E\u6703\u7684\u7CBE\u795E\u6587\u5316\u4E4B\u5821\u58D8\u8207\u5BC4\u8A17\u3002\r\n\u5929\u986F\u5BAE\u4F4D\u65BC\u57FA\u9686\u548C\u5E73\u5CF6(\u539F\u540D\u793E\u5BEE\u5E84)\u9F8D\u4ED4\u9802\u4E4B\u6700\u9802\u7AEF\u3002\u7DE3\u81EA\u6E05\u671D\u4E2D\u8449\uFF0C\u7576\u6642\u7531\u5CF6\u4E0A\u8B1D\u59D3\u7956\u5148\u2014\r\n\u8B1D\u5B50\u9F8D\u4E09\u5144\u5F1F\u81EA\u6D59\u6C5F\u5BE7\u6D77\u5949\u8FCE\u4F0D\u986F\u9748\u5B98\u5927\u5E1D\u91D1\u8EAB\u65BC\u6F8E\u4F73\u5DBC\uFF0C\u672A\u4E45\u5373\u606D\u8FCE\u65BC\u548C\u5E73\u5CF6\u4E0A\u73FE\u5740\uFF0C\u8DDD\u4ECA\u7D04\u8FD1\u5169\u767E\u8F09\u3002"
+  m_text: "\u77D7\u7ACB\u53F0\u7063\u982D\u9802\u795E\u5C0A\u5E87\u4F51\u56DB\u65B9\r\n\n\u5929\u9053\u3001\u795E\u9053\u8207\u4EBA\u9053\u4E43\u662F\u4EBA\u985E\u793E\u6703\u4E0D\u53EF\u6216\u7F3A\u7684\u4E09\u689D\u5149\u660E\u5927\u9053\uFF0C\u4E09\u9053\u4E2D\u5982\u6709\u4E00\u9053\u672A\u5F70\uFF0C\u5FC5\u5C07\u5E36\u4F86\u4EBA\u985E\u707D\u96E3\uFF0C\u5929\u707D\u4EBA\u798D\u96E3\u4EE5\u907F\u514D\u3002\u53CD\u4E4B\uFF0C\u5929\u9053\u66A2\u884C\uFF0C\u795E\u9053\u660E\u662D\uFF0C\u800C\u4EBA\u9053\u5C79\u7ACB\u5247\u5FC5\u662F\u98A8\u8ABF\u96E8\u9806\u3001\u570B\u6CF0\u6C11\u5B89\u7684\u5927\u540C\u76DB\u4E16\u3002\u7230\u4EE5\u795E\u9053\u8A2D\u6559\u7531\u4F86\u5DF2\u4E45\uFF0C\u70BA\u5B8F\u63DA\u795E\u9053\uFF0C\u53E4\u4ECA\u4E2D\u5916\u7121\u4E0D\u4EE5\u8208\u5EFA\u5EDF\u5B87\u6559\u5802\u70BA\u9996\u8981\u8AB2\u984C\u3002\u85C9\u7531\u4EBA\u795E\u4EA4\u6703\uFF0C\u795E\u6069\u5E87\u4F51\uFF0C\u5EDF\u5B87\u6559\u5802\u6F38\u6F38\u5730\u6210\u70BA\u4EBA\u985E\u793E\u6703\u7684\u7CBE\u795E\u6587\u5316\u4E4B\u5821\u58D8\u8207\u5BC4\u8A17\u3002\n\r\n\u5929\u986F\u5BAE\u4F4D\u65BC\u57FA\u9686\u548C\u5E73\u5CF6(\u539F\u540D\u793E\u5BEE\u5E84)\u9F8D\u4ED4\u9802\u4E4B\u6700\u9802\u7AEF\u3002\u7DE3\u81EA\u6E05\u671D\u4E2D\u8449\uFF0C\u7576\u6642\u7531\u5CF6\u4E0A\u8B1D\u59D3\u7956\u5148\u2014\r\n\u8B1D\u5B50\u9F8D\u4E09\u5144\u5F1F\u81EA\u6D59\u6C5F\u5BE7\u6D77\u5949\u8FCE\u4F0D\u986F\u9748\u5B98\u5927\u5E1D\u91D1\u8EAB\u65BC\u6F8E\u4F73\u5DBC\uFF0C\u672A\u4E45\u5373\u606D\u8FCE\u65BC\u548C\u5E73\u5CF6\u4E0A\u73FE\u5740\uFF0C\u8DDD\u4ECA\u7D04\u8FD1\u5169\u767E\u8F09\u3002"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 16cd6fdfda8f55241992d39f4931918e, type: 2}
   m_sharedMaterial: {fileID: -7120473418947075265, guid: 16cd6fdfda8f55241992d39f4931918e, type: 2}
@@ -887,7 +887,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 19.847595, y: 0, z: 15.52475, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -1011,7 +1011,7 @@ GameObject:
   - component: {fileID: 5000727284148889417}
   - component: {fileID: 4264501217925149611}
   m_Layer: 0
-  m_Name: "\u5929\u986F\u5BAE"
+  m_Name: "\u798F\u5FB7\u5BAE"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1084,7 +1084,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\u5929\u986F\u5BAE"
+  m_text: "\u798F\u5FB7\u5BAE"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 16cd6fdfda8f55241992d39f4931918e, type: 2}
   m_sharedMaterial: {fileID: -7120473418947075265, guid: 16cd6fdfda8f55241992d39f4931918e, type: 2}
@@ -1295,8 +1295,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 400, y: -748.18}
-  m_SizeDelta: {x: 799.99994, y: 670.36}
+  m_AnchoredPosition: {x: 400, y: -796.065}
+  m_SizeDelta: {x: 799.99994, y: 766.13}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &2108569540908659345
 CanvasRenderer:
@@ -1326,7 +1326,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\u77D7\u7ACB\u53F0\u7063\u982D\u9802\u795E\u5C0A\u5E87\u4F51\u56DB\u65B9\r\n\u5929\u9053\u3001\u795E\u9053\u8207\u4EBA\u9053\u4E43\u662F\u4EBA\u985E\u793E\u6703\u4E0D\u53EF\u6216\u7F3A\u7684\u4E09\u689D\u5149\u660E\u5927\u9053\uFF0C\u4E09\u9053\u4E2D\u5982\u6709\u4E00\u9053\u672A\u5F70\uFF0C\u5FC5\u5C07\u5E36\u4F86\u4EBA\u985E\u707D\u96E3\uFF0C\u5929\u707D\u4EBA\u798D\u96E3\u4EE5\u907F\u514D\u3002\u53CD\u4E4B\uFF0C\u5929\u9053\u66A2\u884C\uFF0C\u795E\u9053\u660E\u662D\uFF0C\u800C\u4EBA\u9053\u5C79\u7ACB\u5247\u5FC5\u662F\u98A8\u8ABF\u96E8\u9806\u3001\u570B\u6CF0\u6C11\u5B89\u7684\u5927\u540C\u76DB\u4E16\u3002\u7230\u4EE5\u795E\u9053\u8A2D\u6559\u7531\u4F86\u5DF2\u4E45\uFF0C\u70BA\u5B8F\u63DA\u795E\u9053\uFF0C\u53E4\u4ECA\u4E2D\u5916\u7121\u4E0D\u4EE5\u8208\u5EFA\u5EDF\u5B87\u6559\u5802\u70BA\u9996\u8981\u8AB2\u984C\u3002\u85C9\u7531\u4EBA\u795E\u4EA4\u6703\uFF0C\u795E\u6069\u5E87\u4F51\uFF0C\u5EDF\u5B87\u6559\u5802\u6F38\u6F38\u5730\u6210\u70BA\u4EBA\u985E\u793E\u6703\u7684\u7CBE\u795E\u6587\u5316\u4E4B\u5821\u58D8\u8207\u5BC4\u8A17\u3002\r\n\u5929\u986F\u5BAE\u4F4D\u65BC\u57FA\u9686\u548C\u5E73\u5CF6(\u539F\u540D\u793E\u5BEE\u5E84)\u9F8D\u4ED4\u9802\u4E4B\u6700\u9802\u7AEF\u3002\u7DE3\u81EA\u6E05\u671D\u4E2D\u8449\uFF0C\u7576\u6642\u7531\u5CF6\u4E0A\u8B1D\u59D3\u7956\u5148\u2014\r\n\u8B1D\u5B50\u9F8D\u4E09\u5144\u5F1F\u81EA\u6D59\u6C5F\u5BE7\u6D77\u5949\u8FCE\u4F0D\u986F\u9748\u5B98\u5927\u5E1D\u91D1\u8EAB\u65BC\u6F8E\u4F73\u5DBC\uFF0C\u672A\u4E45\u5373\u606D\u8FCE\u65BC\u548C\u5E73\u5CF6\u4E0A\u73FE\u5740\uFF0C\u8DDD\u4ECA\u7D04\u8FD1\u5169\u767E\u8F09\u3002"
+  m_text: "\u77D7\u7ACB\u53F0\u7063\u982D\u9802\u795E\u5C0A\u5E87\u4F51\u56DB\u65B9\r\n\n\u5929\u9053\u3001\u795E\u9053\u8207\u4EBA\u9053\u4E43\u662F\u4EBA\u985E\u793E\u6703\u4E0D\u53EF\u6216\u7F3A\u7684\u4E09\u689D\u5149\u660E\u5927\u9053\uFF0C\u4E09\u9053\u4E2D\u5982\u6709\u4E00\u9053\u672A\u5F70\uFF0C\u5FC5\u5C07\u5E36\u4F86\u4EBA\u985E\u707D\u96E3\uFF0C\u5929\u707D\u4EBA\u798D\u96E3\u4EE5\u907F\u514D\u3002\u53CD\u4E4B\uFF0C\u5929\u9053\u66A2\u884C\uFF0C\u795E\u9053\u660E\u662D\uFF0C\u800C\u4EBA\u9053\u5C79\u7ACB\u5247\u5FC5\u662F\u98A8\u8ABF\u96E8\u9806\u3001\u570B\u6CF0\u6C11\u5B89\u7684\u5927\u540C\u76DB\u4E16\u3002\u7230\u4EE5\u795E\u9053\u8A2D\u6559\u7531\u4F86\u5DF2\u4E45\uFF0C\u70BA\u5B8F\u63DA\u795E\u9053\uFF0C\u53E4\u4ECA\u4E2D\u5916\u7121\u4E0D\u4EE5\u8208\u5EFA\u5EDF\u5B87\u6559\u5802\u70BA\u9996\u8981\u8AB2\u984C\u3002\u85C9\u7531\u4EBA\u795E\u4EA4\u6703\uFF0C\u795E\u6069\u5E87\u4F51\uFF0C\u5EDF\u5B87\u6559\u5802\u6F38\u6F38\u5730\u6210\u70BA\u4EBA\u985E\u793E\u6703\u7684\u7CBE\u795E\u6587\u5316\u4E4B\u5821\u58D8\u8207\u5BC4\u8A17\u3002\r\n\n\u5929\u986F\u5BAE\u4F4D\u65BC\u57FA\u9686\u548C\u5E73\u5CF6(\u539F\u540D\u793E\u5BEE\u5E84)\u9F8D\u4ED4\u9802\u4E4B\u6700\u9802\u7AEF\u3002\u7DE3\u81EA\u6E05\u671D\u4E2D\u8449\uFF0C\u7576\u6642\u7531\u5CF6\u4E0A\u8B1D\u59D3\u7956\u5148\u2014\r\n\u8B1D\u5B50\u9F8D\u4E09\u5144\u5F1F\u81EA\u6D59\u6C5F\u5BE7\u6D77\u5949\u8FCE\u4F0D\u986F\u9748\u5B98\u5927\u5E1D\u91D1\u8EAB\u65BC\u6F8E\u4F73\u5DBC\uFF0C\u672A\u4E45\u5373\u606D\u8FCE\u65BC\u548C\u5E73\u5CF6\u4E0A\u73FE\u5740\uFF0C\u8DDD\u4ECA\u7D04\u8FD1\u5169\u767E\u8F09\u3002"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 16cd6fdfda8f55241992d39f4931918e, type: 2}
   m_sharedMaterial: {fileID: -7120473418947075265, guid: 16cd6fdfda8f55241992d39f4931918e, type: 2}
@@ -1389,7 +1389,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 18.912933, y: 0, z: 13.509277, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -1419,7 +1419,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 120499829084847937, guid: 7246cdfd3e1d4394b91f29c7fb351c6d, type: 3}
       propertyPath: m_Name
-      value: Panel
+      value: Conteat
       objectReference: {fileID: 0}
     - target: {fileID: 699425920397965385, guid: 7246cdfd3e1d4394b91f29c7fb351c6d, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
@@ -1641,6 +1641,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3157240677414900169, guid: 7246cdfd3e1d4394b91f29c7fb351c6d, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4165064025666384118, guid: 7246cdfd3e1d4394b91f29c7fb351c6d, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
@@ -1723,7 +1727,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6208021590320230247, guid: 7246cdfd3e1d4394b91f29c7fb351c6d, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 111.000046
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6208021590320230247, guid: 7246cdfd3e1d4394b91f29c7fb351c6d, type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -1820,6 +1824,11 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 6551830278960686807}
   m_SourcePrefab: {fileID: 100100000, guid: 7246cdfd3e1d4394b91f29c7fb351c6d, type: 3}
+--- !u!224 &820002668111750887 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 5965424611352083868, guid: 7246cdfd3e1d4394b91f29c7fb351c6d, type: 3}
+  m_PrefabInstance: {fileID: 6460499457127422843}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1863115695981263485 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4644147846713827590, guid: 7246cdfd3e1d4394b91f29c7fb351c6d, type: 3}
@@ -1878,6 +1887,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   targetText: {fileID: 6142555414308621356}
+  arrowImage: {fileID: 3449017119702433956}
+--- !u!224 &2507285937242966183 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 8891202154448819164, guid: 7246cdfd3e1d4394b91f29c7fb351c6d, type: 3}
+  m_PrefabInstance: {fileID: 6460499457127422843}
+  m_PrefabAsset: {fileID: 0}
+--- !u!224 &3449017119702433956 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 8535747141836331999, guid: 7246cdfd3e1d4394b91f29c7fb351c6d, type: 3}
+  m_PrefabInstance: {fileID: 6460499457127422843}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &3753203472766992116 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7907829097712510351, guid: 7246cdfd3e1d4394b91f29c7fb351c6d, type: 3}
@@ -1936,6 +1956,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   targetText: {fileID: 5072835953741972901}
+  arrowImage: {fileID: 820002668111750887}
 --- !u!1 &4490008108456137580 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7487226215947421719, guid: 7246cdfd3e1d4394b91f29c7fb351c6d, type: 3}
@@ -1963,7 +1984,7 @@ MonoBehaviour:
   m_ChildForceExpandWidth: 1
   m_ChildForceExpandHeight: 1
   m_ChildControlWidth: 0
-  m_ChildControlHeight: 0
+  m_ChildControlHeight: 1
   m_ChildScaleWidth: 0
   m_ChildScaleHeight: 0
   m_ReverseArrangement: 0
@@ -1994,6 +2015,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   targetText: {fileID: 1233583079055720837}
+  arrowImage: {fileID: 2507285937242966183}
 --- !u!224 &6135854051231699429 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 904837351453330078, guid: 7246cdfd3e1d4394b91f29c7fb351c6d, type: 3}
