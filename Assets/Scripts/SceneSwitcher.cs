@@ -5,10 +5,15 @@ using UnityEngine.EventSystems;
 
 public class SceneSwitcher : MonoBehaviour
 {
-    private static SceneSwitcher instance;
-    private Stack<string> sceneHistory = new Stack<string>();
+    public void SwitchScene(string sceneName)
+    {
+        // 加载新场景
+        SceneManager.LoadScene(sceneName);
+    }
+    //private static SceneSwitcher instance;
+    //private Stack<string> sceneHistory = new Stack<string>();
 
-    void Awake()
+    /*void Awake()
     {
         if (instance == null)
         {
@@ -26,18 +31,18 @@ public class SceneSwitcher : MonoBehaviour
             instance.sceneHistory = this.sceneHistory;
             Destroy(gameObject);
         }
-    }
+    }*/
 
-    public void SwitchScene(string sceneName)
+    /*public void SwitchScene(string sceneName)
     {
         string currentSceneName = SceneManager.GetActiveScene().name;
         sceneHistory.Push(currentSceneName);
 
         SceneManager.LoadScene(sceneName, LoadSceneMode.Additive);
         SceneManager.sceneLoaded += OnSceneLoaded;
-    }
+    }*/
 
-    private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
+    /*private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
         SceneManager.sceneLoaded -= OnSceneLoaded;
         SceneManager.SetActiveScene(scene);
@@ -47,9 +52,9 @@ public class SceneSwitcher : MonoBehaviour
             string previousScene = sceneHistory.Peek();
             SceneManager.UnloadSceneAsync(previousScene);
         }
-    }
+    }*/
 
-    public void LoadPreviousScene() // 回到上一個場景
+    /*public void LoadPreviousScene() // 回到上一個場景
     {
         if (sceneHistory.Count > 0)
         {
@@ -57,5 +62,7 @@ public class SceneSwitcher : MonoBehaviour
             SceneManager.LoadScene(previousScene, LoadSceneMode.Additive);
             SceneManager.sceneLoaded += OnSceneLoaded;
         }
-    }
+    }*/
+    
+    
 }

@@ -675,7 +675,7 @@ GameObject:
   - component: {fileID: 1620934193}
   - component: {fileID: 1620934192}
   m_Layer: 5
-  m_Name: "\u6771\u7832\u81FA"
+  m_Name: FigmaCanvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
