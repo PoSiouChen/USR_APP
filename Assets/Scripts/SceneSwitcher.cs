@@ -1,68 +1,30 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using UnityEngine.EventSystems;
-
-public class SceneSwitcher : MonoBehaviour
+public class SceneManagers : MonoBehaviour
 {
-    public void SwitchScene(string sceneName)
+    public static SceneManagers Singleton;
+    private static List<string> LastScene = new List<string>();
+
+    void Awake()
     {
-        // 加载新场景
-        SceneManager.LoadScene(sceneName);
+        Singleton = this;
     }
-    //private static SceneSwitcher instance;
-    //private Stack<string> sceneHistory = new Stack<string>();
 
-    /*void Awake()
+    public void LoadScene(string SceneName)
     {
-        if (instance == null)
-        {
-            instance = this;
-            DontDestroyOnLoad(gameObject);
+        LastScene.Add(SceneManager.GetActiveScene().name); // 保存目前場景的名字
+        SceneManager.LoadScene(SceneName); //載新場景
+    }
 
-            EventSystem existingEventSystem = FindObjectOfType<EventSystem>();
-            if (existingEventSystem != null && existingEventSystem.gameObject != this.gameObject)
-            {
-                DontDestroyOnLoad(existingEventSystem.gameObject);
-            }
-        }
-        else
-        {
-            instance.sceneHistory = this.sceneHistory;
-            Destroy(gameObject);
-        }
-    }*/
-
-    /*public void SwitchScene(string sceneName)
+    public void LoadLastScene()
     {
-        string currentSceneName = SceneManager.GetActiveScene().name;
-        sceneHistory.Push(currentSceneName);
-
-        SceneManager.LoadScene(sceneName, LoadSceneMode.Additive);
-        SceneManager.sceneLoaded += OnSceneLoaded;
-    }*/
-
-    /*private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
-    {
-        SceneManager.sceneLoaded -= OnSceneLoaded;
-        SceneManager.SetActiveScene(scene);
-
-        if (sceneHistory.Count > 0)
-        {
-            string previousScene = sceneHistory.Peek();
-            SceneManager.UnloadSceneAsync(previousScene);
+        if(LastScene.Count > 0){
+            SceneManager.LoadScene(LastScene[LastScene.Count - 1]);
+            LastScene.RemoveAt(LastScene.Count - 1);
+        } else{
+            Debug.Log("已是最初場景，無法退回");
         }
-    }*/
+    }
 
-    /*public void LoadPreviousScene() // 回到上一個場景
-    {
-        if (sceneHistory.Count > 0)
-        {
-            string previousScene = sceneHistory.Pop();
-            SceneManager.LoadScene(previousScene, LoadSceneMode.Additive);
-            SceneManager.sceneLoaded += OnSceneLoaded;
-        }
-    }*/
-    
-    
 }

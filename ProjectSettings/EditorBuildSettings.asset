@@ -6,11 +6,23 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/TianXian.unity
-    guid: c86986f1fbf240142b1b93aa061c39ac
+    path: Assets/Scenes/HomePage.unity
+    guid: ef6a9533bc327a745a386a73d4823be6
   - enabled: 1
     path: Assets/Scenes/Menu.unity
     guid: 033d3076c2ee75d4da24a7ffcba92e31
+  - enabled: 1
+    path: Assets/Scenes/TianXian.unity
+    guid: c86986f1fbf240142b1b93aa061c39ac
+  - enabled: 1
+    path: Assets/Scenes/FuDe.unity
+    guid: 8ec3e30d1ce65094fa1f5c75567fc80e
+  - enabled: 1
+    path: Assets/Scenes/EastFort.unity
+    guid: e76cba625eaa91c48a7e74161640310d
+  - enabled: 1
+    path: Assets/Scenes/MainScene.unity
+    guid: 1c3f5e36765bda145a6bde7cac8aa27d
   - enabled: 1
     path: Assets/Scenes/GPSTest.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab

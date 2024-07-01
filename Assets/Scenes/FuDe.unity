@@ -175,6 +175,26 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2229275472911587634, guid: e7f3b2d5d63635d45928823a81724b66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: LoadScene
+      objectReference: {fileID: 0}
+    - target: {fileID: 2229275472911587634, guid: e7f3b2d5d63635d45928823a81724b66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: SceneManagers, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 3379448529344408548, guid: e7f3b2d5d63635d45928823a81724b66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3379448529344408548, guid: e7f3b2d5d63635d45928823a81724b66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: LoadLastScene
+      objectReference: {fileID: 0}
+    - target: {fileID: 3379448529344408548, guid: e7f3b2d5d63635d45928823a81724b66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: SceneManagers, Assembly-CSharp
+      objectReference: {fileID: 0}
     - target: {fileID: 4276999830032531788, guid: e7f3b2d5d63635d45928823a81724b66, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
