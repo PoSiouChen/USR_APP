@@ -334,6 +334,11 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
       value: SceneManagers, Assembly-CSharp
       objectReference: {fileID: 0}
+    - target: {fileID: 3689146931840227547, guid: e7f3b2d5d63635d45928823a81724b66,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4094856667196641677, guid: e7f3b2d5d63635d45928823a81724b66,
         type: 3}
       propertyPath: m_fontAsset
@@ -633,6 +638,31 @@ PrefabInstance:
       value: 400
       objectReference: {fileID: 0}
     - target: {fileID: 8118568489682516423, guid: e7f3b2d5d63635d45928823a81724b66,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9092311470207051053, guid: e7f3b2d5d63635d45928823a81724b66,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9092311470207051053, guid: e7f3b2d5d63635d45928823a81724b66,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9092311470207051053, guid: e7f3b2d5d63635d45928823a81724b66,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9092311470207051053, guid: e7f3b2d5d63635d45928823a81724b66,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9092311470207051053, guid: e7f3b2d5d63635d45928823a81724b66,
         type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 0
